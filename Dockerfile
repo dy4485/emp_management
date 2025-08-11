@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/emp-management-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port 8080 (optional for documentation)
-EXPOSE 8080
+EXPOSE 9090
 
 # Run the jar file
 ENTRYPOINT ["java", "-jar", "app.jar"]
